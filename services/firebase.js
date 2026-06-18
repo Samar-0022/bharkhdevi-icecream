@@ -121,3 +121,12 @@ const functions = getFunctions(app);
 
 export const sendPreorderRequest = (payload) =>
   httpsCallable(functions, 'sendPreorderWhatsApp')(payload);
+
+export const sendOwnerOrderNotification = (order) =>
+  httpsCallable(functions, 'notifyOwnerNewOrder')({ order });
+
+export const sendCustomerOrderConfirmation = (order) =>
+  httpsCallable(functions, 'notifyCustomerOrderConfirmed')({ order });
+
+export const sendCustomerStatusUpdate = (order, status) =>
+  httpsCallable(functions, 'notifyCustomerStatusUpdate')({ order, status });
