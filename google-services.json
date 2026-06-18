@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517542560333",
+    "project_id": "bharkahadevi-cd818",
+    "storage_bucket": "bharkahadevi-cd818.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517542560333:android:ef717b6a815370cff41204",
+        "android_client_info": {
+          "package_name": "com.kuldeep2002.bharkahadevi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517542560333-rgl0c3o2hfbvfkpqcale9fspthst3q0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJNvJlWPfp4V4vGK0fi-z6ckeroIUSJuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517542560333-rgl0c3o2hfbvfkpqcale9fspthst3q0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
